@@ -7,17 +7,29 @@
   <!--Trying out some fonts -->
   <link href="https://fonts.googleapis.com/css?family=Roboto&text=Joshua%20Gertner%20Full-Stack%20Developer" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-    <header>
+    <nav id="sidenav">
     <h1>Alex Gertner</h1>
-    <h2>Musician, French Horn</h2>
-    </header>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <button class="dropdown-btn">Media&Concerts
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-container">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+    <a href="lessons.html">Lessons</a>
+    <a href="contact.html">Contact</a>
+    </nav>
 
     <main>
-
+        <h2>Musician, French Horn</h2>
         <img id="profile-pic" src="">
         <audio controls>
             <source src="" type="audio/mpeg">
